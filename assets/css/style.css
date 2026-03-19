@@ -1,0 +1,106 @@
+      :root {
+        --naranja: #e63946;
+        --amarillo: #f1c40f;
+        --negro: #000;
+        --gris: #f8f9fa;
+        --azul: #1d4ed8;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      div {
+        border: 8px solid black;
+      }
+      div:hover {
+        cursor: pointer;
+        background-color: aqua;
+      }
+      .container {
+        width: 400px;
+        height: 500px;
+        border: none;
+      }
+      .mitadsup {
+        height: 66.6%;
+        display: flex;
+        border: none;
+      }
+      .mitadinf {
+        height: 33.3%;
+        display: flex;
+        border: none;
+      }
+      .naranja {
+        width: 60%;
+        background-color: var(--naranja);
+      }
+      .supder {
+        width: 40%;
+        border: none;
+      }
+      .amarillo {
+        background-color: var(--amarillo);
+        height: 50%;
+        border-left: none;
+      }
+      .supdergris {
+        display: flex;
+        height: 50%;
+        border: none;
+      }
+      .supgris1 {
+        width: 50%;
+        background-color: var(--gris);
+        border-top: none;
+        border-left: none;
+      }
+      .supgris2 {
+        width: 50%;
+        background-color: var(--gris);
+        border-top: none;
+        border-left: none;
+      }
+      .infizq {
+        width: 60%;
+        display: flex;
+        border: none;
+      }
+      .negro {
+        width: 50%;
+        background-color: var(--negro);
+        border-top: none;
+      }
+      .izqgris {
+        width: 50%;
+        border: none;
+      }
+      .grishor1 {
+        height: 50%;
+        background-color: var(--gris);
+        border-top: none;
+        border-left: none;
+      }
+      .grishor2 {
+        height: 50%;
+        background-color: var(--gris);
+        border-top: none;
+        border-left: none;
+      }
+      .infder {
+        width: 40%;
+        border: none;
+      }
+      .grisfin {
+        height: 50%;
+        background-color: var(--gris);
+        border-top: none;
+        border-left: none;
+      }
+      .azul {
+        height: 50%;
+        background-color: var(--azul);
+        border-top: none;
+        border-left: none;
+      }
